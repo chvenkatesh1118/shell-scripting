@@ -3,5 +3,6 @@ statuscheck(){
   echo succesess
  else 
   echo failure
+ exit
   
   fi
