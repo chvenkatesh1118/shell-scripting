@@ -1,8 +1,9 @@
+
 statuscheck(){
- if[ $? -eq 0 ] then 
-  echo succesess
+ if [ $1 -eq 0 ] 
+    then 
+   echo succesess
  else 
-  echo failure
- exit
-  
-  fi
+    echo failure
+ fi
+}
