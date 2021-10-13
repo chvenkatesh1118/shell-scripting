@@ -1,9 +1,9 @@
-
+#!/bin/bash
 statuscheck(){
- if [ $1 -eq 0 ] 
+ if [ $? -eq 0 ] 
     then 
-   echo succesess
+   echo succesesschanti
  else 
-    echo failure
+    echo failurechanti
  fi
 }
